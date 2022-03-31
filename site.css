@@ -1,5 +1,5 @@
-html, body{
-    font-family: Oswald, Verdana, Arial, sans-serif 
+body{
+    font-family: 'Oswald', Verdana, Arial, sans-serif 
 }
 
 #container{
@@ -27,3 +27,6 @@ a:hover {
     color: #4F3674;
 }
 
+a:visited {
+    color: 3c275a;
+}
