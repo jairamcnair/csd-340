@@ -1,11 +1,11 @@
 body {
     font-family: "Nunito", Arial, "sans-serif";
-    background-color: #FFBF09;
-   
+    padding: 0.5%;
 }
 
 #page {
     background-color: WHITE;
+    padding: 2%;
 }
 
 /* DIVS */
@@ -13,12 +13,14 @@ div {
     border: 2px solid black;
     padding: 1%;
     margin: 1%;
+    
 }
 
 .header {  
     padding-top: 0%;
     padding-bottom: 0%;
     margin: 0%;
+    border: 3% solid black;
 }
 
 #bio-sec {
@@ -63,10 +65,11 @@ li {
 
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
     font-weight: 700;
 }
+
 
 
 
@@ -140,4 +143,82 @@ p {
 }
 
 /* IMAGES */
+
+footer {
+    background-color: #FF6546;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#fp {
+    border: none;
+}
+
+
+#btt-link {
+    color: white;
+    float: left;
+    margin: 1%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    margin: 1%;
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* COLOR */
+body {
+    background-color: #FF6546;
+}
+
+#page {
+    background-color: white;
+}
+
+#nav {
+    background-color: white;;
+}
+
+.header {
+    background-color: white;;
+}
+
+#bio {
+    background-color: #FF6546;
+}
+
+#biotable {
+    background-color: white;
+}
+#hobbies {
+    background-color: #FF6546;;
+}
+
+#hobby-table {
+    background-color: white;
+}
+
+#work {
+    background-color: #FF6546;
+}
+
+#work-table {
+    background-color: white;
+}
+/* COLOR */
 
