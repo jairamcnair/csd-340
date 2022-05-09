@@ -1,6 +1,11 @@
 body {
     font-family: "Nunito", Arial, "sans-serif";
+    background-color: #FFBF09;
    
+}
+
+#page {
+    background-color: WHITE;
 }
 
 /* DIVS */
@@ -52,6 +57,10 @@ li {
     
 }
 
+#hobby-list {
+    display: block;
+}
+
 
 a {
     text-decoration: none;
@@ -67,10 +76,11 @@ table {
     height: auto;
 }
 
+
 td {
     border: 2px solid black;
+    padding: 1%;
 }
-
 
 
 p {
@@ -89,19 +99,20 @@ p {
 /*  IMAGES */
 
 #portrait {
-    width: 70%;
+    width: 103%;
     border: 2px solid black;
 }
 
 #hobby {
-    width: 45%;
+    width:100%;
     height: auto;
     border: 2px solid black;
     padding-right: 0%;
+    padding-left: 0%;
 }
 
 #hobby2 {
-    width: 103%;
+    width: 100%;
     border: 2px solid black;
 }
 
