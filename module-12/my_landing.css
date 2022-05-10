@@ -4,13 +4,14 @@ body {
 }
 
 #page {
-    background-color: WHITE;
+    /*background-color: WHITE;*/
     padding: 2%;
+    border: none;
 }
 
 /* DIVS */
 div {
-    border: 2px solid black;
+    border: 5px solid black;
     padding: 1%;
     margin: 1%;
     
@@ -21,6 +22,7 @@ div {
     padding-bottom: 0%;
     margin: 0%;
     border: 3% solid black;
+    background-image: url("images/bar.png");
 }
 
 #bio-sec {
@@ -183,42 +185,42 @@ footer a:hover {
 
 /* COLOR */
 body {
-    background-color: #FF6546;
+    background-image: url("images/body.png");
 }
 
-#page {
-    background-color: white;
-}
+/*#page {
+    background-image: url("images/page.png");
+}*/
 
 #nav {
-    background-color: white;;
+    background-color: #FCE7D8;
 }
 
 .header {
-    background-color: white;;
+    background-color: #FCE7D8;
 }
 
 #bio {
-    background-color: #FF6546;
+    background-image: url("images/bar.png");
 }
 
 #biotable {
-    background-color: white;
+    background-color: #FCE7D8;
 }
 #hobbies {
-    background-color: #FF6546;;
+    background-image: url("images/bar.png");
 }
 
 #hobby-table {
-    background-color: white;
+    background-color: #FCE7D8;
 }
 
 #work {
-    background-color: #FF6546;
+    background-image: url("images/bar.png");
 }
 
 #work-table {
-    background-color: white;
+    background-color: #FCE7D8;
 }
 /* COLOR */
 
