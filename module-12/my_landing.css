@@ -147,7 +147,8 @@ p {
 /* IMAGES */
 
 footer {
-    background-color: #FF6546;
+    /*background-color: #FCE7D8;*/
+    background-image: url("images/bar.png");
     position: fixed;
     left: 0;
     bottom: 0;
@@ -160,13 +161,13 @@ footer {
 
 
 #btt-link {
-    color: white;
+    color: black;
     float: left;
     margin: 1%;
 }
 
 footer p {
-    color: white;
+    color: black;
     font-weight: 400;
     float: right;
     margin: 1%;
@@ -176,7 +177,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 footer a:hover {
